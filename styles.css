@@ -1,4 +1,4 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     margin: 0;
@@ -9,7 +9,9 @@ li {
     list-style-type: none;
 }
 
-.header_nav{
+/* Header */
+
+.header_nav {
     display: flex;
     height: 95px;
     padding: 1px 0 0 0;
@@ -17,8 +19,6 @@ li {
     align-items: center;
     margin: 0px 516px 0 501px;
 }
-
-
 
 .header_nav a {
     color: #ccc;
@@ -32,16 +32,16 @@ li {
     margin-left: 15px;
 }
 
-.header_nav .nav_active{
+.header_nav .nav_active {
     font-weight: 500;
     color: white;
 }
 
-.nav_active:after{
+.nav_active:after {
     content: '';
     position: absolute;
     left: 0;
-    bottom: -1px;
+    bottom: -2px;
     height: 1px;
     width: 100%;
     background-color: white;
@@ -56,55 +56,110 @@ li {
     position: relative;
 }
 
-.header_logo{
+.header_logo {
     padding-top: 1px;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.wrapper{
+/* UTP */
+
+.utp {
+    text-align: center;
+    margin-top: 133px;
+}
+
+.slogan {
+    font-size: 64px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4.4px;
+    padding-left: 3px;
+}
+
+.utp p {
+    font-size: 18px;
+    margin-top: 21px;
+    line-height: 140%;
+}
+
+.utp button {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 184px;
+    height: 46px;
+    margin-top: 10px;
+    background-color: #00afdb;
+    border: none;
+}
+
+.utp button:hover {
+    background-color: #009cc2;
+    transition: .2s all;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    margin: 183px auto 0;
+    padding: 0;
+}
+
+.social li {
+    margin: 0 15px;
+}
+
+.social a:hover {
+    opacity: .7;
+    transition: 0.2s all;
+}
+
+/* Layout */
+
+.wrapper {
     margin: 0 auto;
     max-width: 1600px;
 }
 
 .visually-hidden {
-  position: absolute;
-  clip: rect(0 0 0 0);
-  width: 1px;
-  height: 1px;
-  margin: -1px;
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
 }
 
-.bg-sect1{
+.bg-sect1 {
     background-color: black;
     background-image: url("img/bg-image.jpg");
     height: 744px;
 }
 
-.bg-sect2, .bg-sect4{
+.bg-sect2, .bg-sect4 {
     background-color: white;
     height: 842px;
 }
 
-.bg-sect3{
+.bg-sect3 {
     background-color: #F5F6F7;
     height: 504px;
 }
 
-.bg-sect5{
+.bg-sect5 {
     background-color: black;
     background-image: url("img/bg5.jpg");
     height: 524px;
 }
 
-.bg-sect6{
+.bg-sect6 {
     background-color: #F5F6F7;
     height: 464px;
 }
 
-footer{
+footer {
     background-color: black;
     height: 185px;
 }
