@@ -71,7 +71,7 @@ a {
     text-decoration: none;
 }
 
-/* UTP */
+/* USP */
 
 .usp {
     text-align: center;
@@ -299,6 +299,53 @@ a {
     transition: .2s all;
 }
 
+/* News */
+.news .block {
+    width: 406px;
+    /*height: 104px;*/
+    margin: 199px auto 0 auto;
+}
+
+.news h2 {
+    color: white;
+    text-align: center;
+}
+
+.news .input {
+    margin-top: 30px;
+    display: flex;
+    height: 46px
+}
+
+.news input {
+    width: 335px;
+    text-indent: 23px;
+    border: none;
+}
+
+.news button {
+    background-color: #00afdb;
+    width: 66px;
+    border: none;
+}
+
+.news button:after {
+    content: url("img/check-icon.png");
+    position: relative;
+    left: 1px;
+    top: 1px;
+}
+
+.news button:hover {
+    background-color: #009cc2;
+    transition: .2s all;
+}
+
+/* Download */
+
+
+/* Footer */
+
 /* Layout */
 
 .wrapper {
@@ -328,12 +375,14 @@ a {
 .community {
     background-color: #F5F6F7;
     height: 504px;
+    overflow: hidden;
 }
 
-.bg-sect5 {
+.news {
     background-color: black;
     background-image: url("img/bg5.jpg");
     height: 524px;
+    overflow: hidden;
 }
 
 .bg-sect6 {
