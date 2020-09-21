@@ -164,6 +164,107 @@ button:hover {
     transition: .2s all;
 }
 
+/* Community */
+
+.community {
+    display: flex;
+}
+
+.usercard {
+    width: 300px;
+    margin: 155px 0 0 268px;
+}
+
+.usercard img {
+    width: 45px;
+    height: 45px;
+    margin: 0 auto;
+    display: block;
+}
+
+.usercard h3 {
+    font-size: 16px;
+    color: black;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 22px;
+    line-height: 14px;
+}
+
+.usercard p {
+    color: black;
+    text-align: center;
+    line-height: 145%;
+    margin-top: -1px;
+}
+
+.slider {
+    margin: 10px 0 0 0;
+    width: 1030px;
+    overflow: hidden;
+}
+
+.slider_control {
+    font-size: 18px;
+    color: #373737;
+    margin-left: 705px;
+    margin-top: 70px;
+}
+
+.photo_num {
+    position: relative;
+    margin-right: 3px;
+}
+
+.photo_total {
+    position: relative;
+    margin-left: 3px;
+}
+
+.photo_num:before {
+    content: '';
+    position: absolute;
+    right: 23px;
+    top: 6px;
+    height: 7px;
+    width: 7px;
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+    transform: rotate(45deg);
+}
+
+.photo_total:after {
+    content: '';
+    position: absolute;
+    left: 23px;
+    top: 6px;
+    height: 7px;
+    width: 7px;
+    border-top: 2px solid;
+    border-right: 2px solid;
+    transform: rotate(45deg);
+}
+
+.photo_num:hover:before,
+.photo_total:hover:after {
+    cursor: pointer;
+    opacity: .7;
+}
+
+.slider_photos {
+    display: flex;
+    margin: 18px 0 0 98px;
+}
+
+.slider_photos li {
+    margin-right: 30px;
+}
+
+/* Implement */
+
+
+
 /* Layout */
 
 .wrapper {
@@ -190,7 +291,7 @@ button:hover {
     height: 842px;
 }
 
-.bg-sect3 {
+.community {
     background-color: #F5F6F7;
     height: 504px;
 }
