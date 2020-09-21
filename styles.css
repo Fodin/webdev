@@ -404,6 +404,63 @@ a {
 }
 
 /* Footer */
+footer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer ul {
+  margin-top: 75px;
+  margin-left: 120px;
+  display: flex;
+}
+
+footer li {
+  position: relative;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  opacity: .7;
+  transition: 0.2s all;
+}
+
+footer li:nth-child(2) {
+  margin: 0 41px;
+}
+
+footer li:nth-child(2):before {
+  content: '';
+  height: 8px;
+  border-left: 1px solid #4E4E4E;
+  position: absolute;
+  left: -21px;
+  top: 5px;
+}
+
+footer li:nth-child(2):after {
+  content: '';
+  height: 8px;
+  border-left: 1px solid #4E4E4E;
+  position: absolute;
+  right: -21px;
+  top: 5px;
+}
+
+footer .footer_logo {
+  margin-top: 60px;
+  margin-right: 66px;
+}
+
+footer .copyright {
+  margin-top: 75px;
+  margin-right: 160px;
+  color: #818181;
+}
 
 /* Layout */
 
