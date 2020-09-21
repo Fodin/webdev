@@ -9,6 +9,13 @@ li {
     list-style-type: none;
 }
 
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
 /* Header */
 
 .header_nav {
@@ -66,8 +73,9 @@ a {
 
 /* UTP */
 
-.utp {
+.usp {
     text-align: center;
+    color: white;
     margin-top: 133px;
 }
 
@@ -79,13 +87,13 @@ a {
     padding-left: 3px;
 }
 
-.utp p {
+.usp p {
     font-size: 18px;
     margin-top: 21px;
     line-height: 140%;
 }
 
-.utp button {
+.usp button {
     color: white;
     font-weight: bold;
     text-transform: uppercase;
@@ -96,7 +104,7 @@ a {
     border: none;
 }
 
-.utp button:hover {
+.usp button:hover {
     background-color: #009cc2;
     transition: .2s all;
 }
@@ -115,6 +123,45 @@ a {
 .social a:hover {
     opacity: .7;
     transition: 0.2s all;
+}
+
+/* Rappresent */
+
+.rapp {
+    background: url("img/content-image-1.jpg") no-repeat 924px 120px;
+    overflow: hidden;
+}
+
+.rapp h2 {
+    color: black;
+}
+
+.rapp .block {
+    margin-top: 294px;
+    margin-left: 269px;
+}
+
+.rapp p {
+    color: black;
+    margin-top: 22px;
+    line-height: 140%;
+    width: 410px;
+}
+
+.rapp button {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 184px;
+    height: 46px;
+    margin-top: 18px;
+    background-color: #00afdb;
+    border: none;
+}
+
+button:hover {
+    background-color: #009cc2;
+    transition: .2s all;
 }
 
 /* Layout */
@@ -138,7 +185,7 @@ a {
     height: 744px;
 }
 
-.bg-sect2, .bg-sect4 {
+.rapp, .bg-sect4 {
     background-color: white;
     height: 842px;
 }
