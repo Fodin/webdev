@@ -1,3 +1,70 @@
 body{
     font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    color: red;
+}
+
+ul{
+
+    margin:0; /* УБРАТЬ */
+}
+
+li {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.wrapper{
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.bg-sect1{
+    background-color: black;
+    background-image: url("img/bg-image.jpg");
+    height: 744px;
+}
+
+nav {
+    margin: 0 auto;
+    width: 500px;
+}
+
+.bg-sect2, .bg-sect4{
+    background-color: white;
+    height: 842px;
+}
+
+.bg-sect3{
+    background-color: #F5F6F7;
+    height: 504px;
+}
+
+.bg-sect5{
+    background-color: black;
+    background-image: url("img/bg5.jpg");
+    height: 524px;
+}
+
+.bg-sect6{
+    background-color: #F5F6F7;
+    height: 464px;
+}
+
+footer{
+    background-color: black;
+    height: 185px;
 }
