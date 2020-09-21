@@ -5,18 +5,63 @@ body{
     color: red;
 }
 
-ul{
-
-    margin:0; /* УБРАТЬ */
-}
-
 li {
     list-style-type: none;
 }
 
+.header_nav{
+    display: flex;
+    height: 95px;
+    padding: 1px 0 0 0;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 516px 0 501px;
+}
+
+
+
+.header_nav a {
+    color: #ccc;
+}
+
+.header_nav > li:nth-child(2) {
+    margin-right: 16px;
+}
+
+.header_nav > li:nth-child(4) {
+    margin-left: 15px;
+}
+
+.header_nav .nav_active{
+    font-weight: 500;
+    color: white;
+}
+
+.nav_active:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 1px;
+    width: 100%;
+    background-color: white;
+}
+
+.header_nav a:hover {
+    opacity: .7;
+    transition: 0.2s all;
+}
+
+.header_nav li {
+    position: relative;
+}
+
+.header_logo{
+    padding-top: 1px;
+}
+
 a{
     text-decoration: none;
-    color: white;
 }
 
 .wrapper{
@@ -36,11 +81,6 @@ a{
     background-color: black;
     background-image: url("img/bg-image.jpg");
     height: 744px;
-}
-
-nav {
-    margin: 0 auto;
-    width: 500px;
 }
 
 .bg-sect2, .bg-sect4{
