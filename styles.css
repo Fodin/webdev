@@ -159,7 +159,7 @@ a {
     border: none;
 }
 
-button:hover {
+.rapp button:hover {
     background-color: #009cc2;
     transition: .2s all;
 }
@@ -263,7 +263,41 @@ button:hover {
 
 /* Implement */
 
+.implement {
+    background: url("img/content-image-2.jpg") no-repeat 269px 120px;
+    overflow: hidden;
+}
 
+.implement h2 {
+    color: black;
+}
+
+.implement .block {
+    margin-top: 319px;
+    margin-left: 815px;
+}
+
+.implement p {
+    color: black;
+    line-height: 143%;
+    width: 410px;
+}
+
+.implement button {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 180px;
+    height: 46px;
+    margin-top: 15px;
+    background-color: #00afdb;
+    border: none;
+}
+
+.implement button:hover {
+    background-color: #009cc2;
+    transition: .2s all;
+}
 
 /* Layout */
 
@@ -286,7 +320,7 @@ button:hover {
     height: 744px;
 }
 
-.rapp, .bg-sect4 {
+.rapp, .implement {
     background-color: white;
     height: 842px;
 }
